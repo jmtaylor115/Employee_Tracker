@@ -9,6 +9,7 @@ VALUES ("Payroll");
 INSERT INTO Department(name)
 VALUES ("Human Resources");
 
+--Legal
 INSERT INTO Role(title, salary, department_id)
 VALUES ("Legal Operations Manager", 110000, 1);
 INSERT INTO Role(title, salary, department_id)
@@ -17,16 +18,20 @@ INSERT INTO Role(title, salary, department_id)
 VALUES ("Legal Operation Analyst", 100000, 1);
 INSERT INTO Role(title, salary, department_id)
 VALUES ("Director of Legal Operations", 120000, 1);
+--Sales
 INSERT INTO Role(title, salary, department_id)
 VALUES ("Salesperson", 70000, 2);
 INSERT INTO Role(title, salary, department_id)
 VALUES ("Sales Manager", 90000, 2);
+--IT
 INSERT INTO Role(title, salary, department_id)
 VALUES ("IT Manager", 90000, 3);
 INSERT INTO Role(title, salary, department_id)
 VALUES ("Engineer", 70000, 3);
+--Payroll
 INSERT INTO Role(title, salary, department_id)
 VALUES ("Payroll Analyst", 70000, 4);
+--HR
 INSERT INTO Role(title, salary, department_id)
 VALUES ("Department Head", 90000, 5);
 INSERT INTO Role(title, salary, department_id)
