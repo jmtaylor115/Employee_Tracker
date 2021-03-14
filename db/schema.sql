@@ -20,7 +20,7 @@ CREATE TABLE Role
     department_id INT
 );
 
-CREATE TABLE employee(
+CREATE TABLE Employee(
     id INT NOT NULL
     AUTO_INCREMENT
     PRIMARY KEY,
